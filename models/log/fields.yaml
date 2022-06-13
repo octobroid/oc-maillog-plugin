@@ -1,0 +1,26 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    subject:
+        label: Subject
+    body:
+        label: Body
+        type: richeditor
+        size: giant
+    sender:
+        label: Sender
+        span: auto
+    to:
+        label: To
+        span: auto
+    cc:
+        label: CC
+        span: auto
+    reply_to:
+        label: Reply To
+        span: auto
+    bcc:
+        label: BCC
+        span: auto

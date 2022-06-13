@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Log
+
+# Model Form Field configuration
+form: $/octobro/maillog/models/log/fields.yaml
+
+# Model Class name
+modelClass: Octobro\MailLog\Models\Log
+
+# Default redirect location
+defaultRedirect: octobro/maillog/logs
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: octobro/maillog/logs/update/:id
+    redirectClose: octobro/maillog/logs
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: octobro/maillog/logs
+    redirectClose: octobro/maillog/logs
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
