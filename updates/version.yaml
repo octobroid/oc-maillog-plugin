@@ -2,3 +2,4 @@
   - First version of MailLog
   - create_logs_table.php
 2.0.0: Add compatibility to October CMS 3 and Laravel 9
+2.0.1: Add Manage Permission

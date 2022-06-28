@@ -64,12 +64,12 @@ class Plugin extends PluginBase
      */
     public function registerPermissions()
     {
-        return []; // Remove this line to activate
+        // return []; // Remove this line to activate
 
         return [
-            'octobro.maillog.some_permission' => [
+            'octobro.maillog.manage' => [
                 'tab' => 'MailLog',
-                'label' => 'Some permission'
+                'label' => 'Manage Mail Log'
             ],
         ];
     }

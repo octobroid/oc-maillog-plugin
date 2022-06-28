@@ -9,6 +9,8 @@ use Octobro\MailLog\Models\Log;
  */
 class Logs extends Controller
 {
+    public $requiredPermissions = ['octobro.maillog.manage'];
+
     public $implement = [
         \Backend\Behaviors\FormController::class,
         \Backend\Behaviors\ListController::class
